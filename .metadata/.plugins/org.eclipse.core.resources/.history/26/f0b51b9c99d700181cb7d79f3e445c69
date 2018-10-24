@@ -1,0 +1,19 @@
+package backjoon;
+
+import java.util.Scanner;
+
+public class boj10951 {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		while(s.hasNextInt()) {		// 다음 문자의 집단이 int로 읽을 수 있을 때 true를 반환함
+			int a = s.nextInt();
+			int b = s.nextInt();
+			
+			System.out.println(a+b);
+		}
+	}
+
+}
