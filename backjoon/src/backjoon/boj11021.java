@@ -16,8 +16,8 @@ public class boj11021 {
 			sum[i] = a + b;
 		}
 		
-		for(int i = 0; i < testCase; i++) {
-			System.out.println("Case #" + i + ": " + sum[i]);
+		for(int i = 1; i <= testCase; i++) {
+			System.out.println("Case #" + i + ": " + sum[i-1]);
 		}
 	}
 
