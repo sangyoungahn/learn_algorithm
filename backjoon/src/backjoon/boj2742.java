@@ -14,5 +14,4 @@ public class boj2742 {
 			}
 		}
 	}
-
 }
