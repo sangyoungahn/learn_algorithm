@@ -10,12 +10,13 @@ public class boj9095 {
 		int num;
 		
 		int[] arr = new int[11];
+		arr[0] = 0;		// 정수가 0일 때 가능한 경우의 수
 		arr[1] = 1;		// 정수가 1일 때 가능한 경우의 수
 		arr[2] = 2;		// 정수가 2일 때 가능한 경우의 수
 		arr[3] = 4;		// 정수가 3일 때 가능한 경우의 수
 		
 		// 입력 받은 테스크 케이스만큼 반복
-		for(int i = 0 ; i <= testCase; i++) {
+		for(int i = 0 ; i < testCase; i++) {
 			num = sc.nextInt();
 			
 			// 4이상부터는 점화식을 통해 값을 구함
